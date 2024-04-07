@@ -1,5 +1,5 @@
 # Rythmic
-# Heart Disease Risk Prediction: Rythmic
+# Heart Disease Risk Prediction
 
 ## Introduction
 
