@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root{
+    --bg-color: #000000;
+    --text-color: #fdfdfd;
+    --main-color: #66FCF1;
+    --white-color: #fdfdfdfd;
+    --secondary-color: #ff0000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-color: transparent;
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 7%;
+}
+
+.logo{
+    height: 7vh;
+    width:5vw;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(45deg, rgb(37, 6, 46) 0%, rgb(37, 6, 46) 28%,rgb(66, 27, 59) 28%, rgb(66, 27, 59) 31%,rgb(96, 48, 72) 31%, rgb(96, 48, 72) 59%,rgb(125, 69, 85) 59%, rgb(125, 69, 85) 66%,rgb(154, 90, 97) 66%, rgb(154, 90, 97) 68%,rgb(184, 111, 110) 68%, rgb(184, 111, 110) 94%,rgb(213, 132, 123) 94%, rgb(213, 132, 123) 100%),linear-gradient(112.5deg, rgb(37, 6, 46) 0%, rgb(37, 6, 46) 28%,rgb(66, 27, 59) 28%, rgb(66, 27, 59) 31%,rgb(96, 48, 72) 31%, rgb(96, 48, 72) 59%,rgb(125, 69, 85) 59%, rgb(125, 69, 85) 66%,rgb(154, 90, 97) 66%, rgb(154, 90, 97) 68%,rgb(184, 111, 110) 68%, rgb(184, 111, 110) 94%,rgb(213, 132, 123) 94%, rgb(213, 132, 123) 100%),linear-gradient(90deg, rgb(37, 6, 46) 0%, rgb(37, 6, 46) 28%,rgb(66, 27, 59) 28%, rgb(66, 27, 59) 31%,rgb(96, 48, 72) 31%, rgb(96, 48, 72) 59%,rgb(125, 69, 85) 59%, rgb(125, 69, 85) 66%,rgb(154, 90, 97) 66%, rgb(154, 90, 97) 68%,rgb(184, 111, 110) 68%, rgb(184, 111, 110) 94%,rgb(213, 132, 123) 94%, rgb(213, 132, 123) 100%),linear-gradient(135deg, rgb(37, 6, 46) 0%, rgb(37, 6, 46) 28%,rgb(66, 27, 59) 28%, rgb(66, 27, 59) 31%,rgb(96, 48, 72) 31%, rgb(96, 48, 72) 59%,rgb(125, 69, 85) 59%, rgb(125, 69, 85) 66%,rgb(154, 90, 97) 66%, rgb(154, 90, 97) 68%,rgb(184, 111, 110) 68%, rgb(184, 111, 110) 94%,rgb(213, 132, 123) 94%, rgb(213, 132, 123) 100%),linear-gradient(90deg, rgb(100, 205, 26),rgb(46, 36, 113)); background-blend-mode:overlay,overlay,overlay,overlay,normal;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .container h1{
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 10px;
+    color: var(--text-color);
+  }
+
+  .container form h1{
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+    padding: .5rem ;
+  }
+
+    input[type="number"]:focus {
+        outline: none;
+        border-color: var(--bg-color) ;
+    }
+
+    .btn {
+        --clr-font-main: var(--bg-color);
+        --btn-bg-1: var(--secondary-color);
+        --btn-bg-2: #000000;
+        --btn-bg-color: hsla(360 100% 100% / 1);
+        --radii: 0.5em;
+        cursor: pointer;
+        padding: 0.9rem 1.4rem;
+        min-width: 120px;
+        min-height: 44px;
+        font-size: var(--size, 1rem);
+        font-family: "Segoe UI", system-ui, sans-serif;
+        margin-left: 14rem;
+        margin-top: 1rem;
+        font-weight: 500;
+        transition: 0.8s;
+        background-size: 280% auto;
+        background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+        border: none;
+        border-radius: var(--radii);
+        color: var(--text-color);
+        box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+      }
+      
+      .btn:hover {
+        background-position: right top;
+      }
+      
+      .btn:is(:focus, :focus-visible, :active) {
+        outline: none;
+        box-shadow: var(--secondary-color);
+      }
+      
+      @media (prefers-reduced-motion: reduce) {
+        .btn{
+          transition: linear;
+        }
+      }
+      
+.result{
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
