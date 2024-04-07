@@ -1,7 +1,7 @@
 # Rythmic
 # Heart Disease Risk Prediction
 
-#Team - The Boys (Shivansh, Shane, Krishna, Fadil)
+Team - The Boys (Shivansh, Shane, Krishna, Fadil)
 
 ## Introduction
 
