@@ -1,6 +1,8 @@
 # Rythmic
 # Heart Disease Risk Prediction
 
+#Team - The Boys (Shivansh, Shane, Krishna, Fadil)
+
 ## Introduction
 
 This documentation presents a project aimed at leveraging machine learning techniques to predict the risk of heart disease based on its relation to gut microbiome and menstrual cycle. The project utilizes a dataset comprising various physiological and biological features to train multiple classification models. The ultimate goal is to accurately classify individuals as either having or not having heart disease based on these features.
